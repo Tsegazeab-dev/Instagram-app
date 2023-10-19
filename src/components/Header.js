@@ -20,7 +20,7 @@ export default function Header(){
                 height={100}
                 />
             </div>
-            
+
             {/* Middle */}
             <div className="relative">
                 <AiOutlineSearch className="absolute top-3 left-2 text-gray-500"/>
@@ -28,8 +28,8 @@ export default function Header(){
             </div>
             {/* right side */}
             <div className="flex items-center space-x-4">
-                <AiFillHome className="hidden md:inline-flex text-2xl cursor-pointer"/>
-                <AiOutlinePlusCircle className="text-2xl cursor-pointer"/>
+                <AiFillHome className="hidden md:inline-flex text-2xl cursor-pointer hover:scale-125 duration-200 "/>
+                <AiOutlinePlusCircle className="text-2xl cursor-pointer hover:scale-125 duration-200"/>
 
                 <img src="https://media.licdn.com/dms/image/D4E03AQHBjOrw1Q6Wkg/profile-displayphoto-shrink_800_800/0/1674905933454?e=2147483647&v=beta&t=703Vp4meIvx6sflUjurVVtvPJpxXCQj9zBjxBz7Jx_w" alt="profile" className="h-12 cursor-pointer rounded-full" />
             </div>
