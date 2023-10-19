@@ -3,7 +3,8 @@ import {AiOutlineSearch, AiFillHome, AiOutlinePlusCircle} from "react-icons/ai"
 
 export default function Header(){
     return (
-        <div className="flex items-center justify-between mx-4 max-w-6xl xl:mx-auto mt-5">
+        <div className="shadow-sm border-b pb-5 sticky top-0 bg-white z-30">
+        <div className="flex items-center justify-between mx-4 max-w-6xl xl:mx-auto mt-5 ">
             {/* left side */}
             <div className="cursor-pointer hidden lg:inline-grid">
                 <Image
@@ -33,6 +34,7 @@ export default function Header(){
 
                 <img src="https://media.licdn.com/dms/image/D4E03AQHBjOrw1Q6Wkg/profile-displayphoto-shrink_800_800/0/1674905933454?e=2147483647&v=beta&t=703Vp4meIvx6sflUjurVVtvPJpxXCQj9zBjxBz7Jx_w" alt="profile" className="h-12 cursor-pointer rounded-full" />
             </div>
+        </div>
         </div>
     )
 }
