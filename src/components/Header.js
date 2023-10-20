@@ -13,7 +13,7 @@ export default function Header(){
                 height={100}
                 />
             </div>
-            <div className="cursor-pointer lg:hidden w-10">
+            <div className="cursor-pointer lg:hidden">
                 <Image
                 src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png'
                 className=""

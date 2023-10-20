@@ -1,8 +1,10 @@
+import Feed from "@/components/Feed";
 
 export default function Home() {
   return (
-   <>
-   {/* <h1>Home Page</h1> */}
-   </>
+  <div className="bg-gray-50 min-h-screen">
+    {/* Feed */}
+    <Feed/>
+  </div>
   )
 }
