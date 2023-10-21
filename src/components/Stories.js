@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react"
 import minifaker from 'minifaker'
 import "minifaker/locales/en"
-import { Poor_Story } from "next/font/google";
 import Story from "./Story";
 export default function Stories() {
     const [userData, setUserData] = useState([]);
@@ -15,7 +14,7 @@ export default function Stories() {
         }) );
         setUserData(stories);
     },[])
-console.log(userData)
+console.log(userData);
   return (
     <div className="flex space-x-2  p-6 mt-8 bg-white border-gray-200 overflow-x-scroll scrollbar-none rounded-sm">
         {userData.map(item =>(
