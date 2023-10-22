@@ -1,4 +1,5 @@
-import {BsThreeDots} from 'react-icons/bs'
+import {BsThreeDots, BsChatDots, BsBookmark} from 'react-icons/bs'
+import {AiOutlineHeart} from 'react-icons/ai'
 export default function Post({username, img, caption, userImg, id}) {
   return (
     <div className=' bg-white my-7  border rounded-md'>
@@ -11,7 +12,16 @@ export default function Post({username, img, caption, userImg, id}) {
         {/* post images */}
         
         <img className='object-cover w-full'src={img} alt={caption} />
-        <p>{caption}</p>
+        {/* <p>{caption}</p> */}
+
+        {/* post buttons */}
+        <div className="flex justify-between px-4 pt-4">
+          <div className="flex space-x-4">
+            <AiOutlineHeart className='btn'/>
+            <BsChatDots className='btn'/>
+          </div>
+          <BsBookmark className='btn'/>
+        </div>
     </div>
   )
 }
