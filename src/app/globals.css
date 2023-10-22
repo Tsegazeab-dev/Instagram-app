@@ -4,6 +4,6 @@
 
 @layer components{
     .btn{
-       @apply text-xl hover:scale-125 transition-transform duration-200 ease-out
+       @apply text-xl hover:scale-125 cursor-pointer transition-transform duration-200 ease-out
     }
 }
